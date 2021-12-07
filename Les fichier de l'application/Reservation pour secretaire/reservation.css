@@ -1,0 +1,98 @@
+section{
+    background-image: url('../Accueil/Fond.jpg');
+    font-family: algerian;
+}
+div h1{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    font-size: medium;
+}
+input{
+	padding: 2%;
+	color: blue;
+	background-color: white;
+}
+.formulaire{
+    width: 45%;
+}
+input:hover{  
+    color: blue;
+}
+/*.defile{
+    color: tomato;
+}*/
+aside{
+    position: absolute;
+    top:400px ;
+    height: 400px;
+    left: 600px;
+    margin-left: 270px;
+    width: 400px;
+    background-color: yellowgreen;
+}
+.diaprorama{
+    margin: 0 auto;
+    border:3px solid #333;
+    /*definition de la taille de l'image*/
+    width: 370px;
+    height: 300px;
+    /*insertion de l'image initiale*/
+    background-image:url("bus.PNG");
+    /*webkit pour faire apparaitre les animations dans internet explorer*/
+    -webkit-animation-name: diapo1;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+/*avec le navigateur firefox*/
+    -moz-animation-name: diapo1;
+    -moz-animation-duration: 10s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    /*Autres-*/
+
+   animation-name: diapo1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+     animation-direction: normal;
+
+
+}
+/*diaprorama pour les anciennes version de internet esploreuer*/
+@-webkit-keyframes diapo1{
+    0%{background-image: url('bus2.PNG');}
+    30%{background-image:url('bus3.PNG') ;}
+    55%{background-image: url('bus4.PNG');}
+    65%{background-image: url('bus5.PNG');}
+    78%{background-image: url('bus6.PNG');}
+    90%{background-image: url('bus7.PNG');}
+
+
+}
+/*diaprorama pour les anciennes version de firefox*/
+@-moz-keyframes diaopo1{
+    0%{background-image: url('bus2.PNG');}
+    30%{background-image:url('bus3.PNG') ;}
+    55%{background-image: url('bus4.PNG');}
+    65%{background-image: url('bus5.PNG');}
+    78%{background-image: url('bus6.PNG');}
+    90%{background-image: url('bus7.PNG');}
+}
+@keyframes diaopo1{
+    0%{background-image: url('bus2.PNG');}
+    30%{background-image:url('bus3.PNG') ;}
+    55%{background-image: url('bus4.PNG');}
+    65%{background-image: url('bus5.PNG');}
+    78%{background-image: url('bus6.PNG');}
+    90%{background-image: url('bus7.PNG');}
+    
+}
+.sous-diaprorama{
+    color: blueviolet;
+    font-family: Chiller;
+    font-size: 20px;
+}

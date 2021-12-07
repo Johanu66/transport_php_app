@@ -1,0 +1,36 @@
+
+.bloc{
+	background-image: url(../Accueil/Fond.jpg);
+}
+.formulaire
+{
+	text-align: center;
+}
+.tableau
+{
+	text-align: center;
+}
+body div h1
+{
+	text-align: center;
+	color: blue;
+}
+h3
+{
+	text-align: center;
+	color: green;
+}
+caption
+{
+	color: green;
+	font-size: 3em;
+}
+h4
+{
+	color: green;
+}
+input{
+	color: blue;
+	background-color: white;
+	padding: 1%;
+}

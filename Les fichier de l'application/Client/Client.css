@@ -1,0 +1,14 @@
+section{
+	background-image: url(../Accueil/Fond.jpg);
+}
+div{
+	text-align: center;
+}
+.input{
+	float: right;
+}
+input{
+	color: blue;
+	background-color: white;
+	padding: 1%;
+}

@@ -1,0 +1,30 @@
+.complé 
+{
+	display: flex;
+	justify-content: space-around;
+}
+.animation
+{
+font-family:"Arial Black" ;
+text-align: center;
+color: green;
+}
+marquee{
+	background-image: url("../Accueil/Fond.jpg");
+	text-decoration: underline;
+}
+.img
+{
+	opacity: 0.65;
+}
+strong
+{
+	font-family: Broadway;
+}
+em
+{
+	color: red;
+}
+section{
+	background-image: url("../Accueil/Fond.jpg");
+}

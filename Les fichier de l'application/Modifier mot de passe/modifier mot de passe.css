@@ -1,0 +1,18 @@
+section{
+	background-image: url(../Accueil/Fond.jpg);
+}
+form{
+	text-align: center;
+}
+h4{
+	color: red;
+}
+h3{
+	color: blue;
+	text-align: center;
+}
+input{
+	color: blue;
+	background-color: white;
+	padding: 1%;
+}

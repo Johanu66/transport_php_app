@@ -1,0 +1,34 @@
+body{
+	background-image: url(../Accueil/Fond.jpg);
+}
+section{
+ 	width: 500px;
+ 	margin-left: 400px;
+	text-align: justify;
+}
+img{
+	width: 300px;
+}
+em{
+		font-family: Brush Script MT;
+		color: blue;
+		font-size: 40px;
+}
+h1{
+		font-size: 30px;
+		text-align: center;
+		font-weight: bolder;
+}
+.sms{
+		font-family: Agency FB;
+		font-size: 30px;
+		width: 90%;
+		font-weight: bolder;
+		color: green;
+}
+.cond{
+		font-size: 30px;
+		list-style: circle;
+		color: blue;
+		font-family: Bahnschrift SemiLight SemiConde;
+}

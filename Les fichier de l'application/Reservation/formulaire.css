@@ -1,0 +1,25 @@
+
+form{
+    border: 2px solid black;
+    border: 2px;
+    text-align: center;
+ }
+
+input{
+    padding: 1%;
+    color: blue;
+
+ }
+section
+{
+    background-image: url('../Accueil/Fond.jpg');
+}
+input:hover{
+    background-color: lime;
+ }
+div p{
+	color: blue;
+}
+section h1{
+	text-align: center;
+}

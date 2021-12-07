@@ -1,0 +1,33 @@
+div
+{
+	display: flex;
+}
+.bus1{
+	width: 90%;
+}
+.bus2{
+	width: 100%;
+}
+.bus3{
+	width: 90%;
+}
+.bus4{
+	width: 100%;
+}
+.bus5{
+	width: 90%;
+}
+figure{
+	text-align: center;
+}
+section a{
+	font-size: 1.5em;
+	color: blue;
+}
+section a:hover{
+	color: green;
+}
+body
+{
+	background-image: url("../Accueil/Fond.jpg");
+}

@@ -1,0 +1,1 @@
+<?php header("Location: Les fichier de l'application/Accueil/Accueil.php"); ?>

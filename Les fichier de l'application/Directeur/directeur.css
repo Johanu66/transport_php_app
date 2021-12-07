@@ -1,0 +1,16 @@
+section
+{
+	background: url(../Accueil/Fond.jpg);
+	text-align: center;
+}
+ section a:hover
+	{
+	color:blue;
+	}
+section a{
+	color:green;
+}
+section a:visited{
+	color:yellow;
+
+}
